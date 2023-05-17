@@ -1,5 +1,7 @@
 package com.example.firstrestalishev.dto;
 
+import javax.validation.constraints.*;
+
 public class PersonDTO {
 
     @NotEmpty(message = "Name should not be empty")
